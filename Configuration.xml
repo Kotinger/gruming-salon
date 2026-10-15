@@ -49,7 +49,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Хайров Александр</Vendor>
-			<Version>1.0.0.1 </Version>
+			<Version>1.0.0.2</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -262,7 +262,7 @@
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>Пользователи</Catalog>
 			<Catalog>Должности</Catalog>
-			<Catalog>ИсточникиПолученияИнформацииОКомпании</Catalog>
+			<Catalog>ИсточникиИнформации</Catalog>
 			<Document>ЗаписьКлиента</Document>
 			<Document>РеализацияТоваровИУслуг</Document>
 			<Document>ПоступлениеТоваровИМатериалов</Document>

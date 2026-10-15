@@ -186,11 +186,7 @@
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
-					<ChoiceParameters>
-						<app:item name="Отбор.ТипКонтрагента">
-							<app:value xsi:type="xr:DesignTimeRef">Enum.ТипыКонтрагентов.EnumValue.Клиент</app:value>
-						</app:item>
-					</ChoiceParameters>
+					<ChoiceParameters/>
 					<QuickChoice>Auto</QuickChoice>
 					<CreateOnInput>Auto</CreateOnInput>
 					<ChoiceForm/>

@@ -521,7 +521,7 @@
 			</c>
 			<c>
 				<c>
-					<f>12</f>
+					<f>18</f>
 					<parameter>СуммаДокумента</parameter>
 				</c>
 			</c>
@@ -545,14 +545,14 @@
 			</c>
 			<c>
 				<c>
-					<f>12</f>
+					<f>18</f>
 					<parameter>Ответственный</parameter>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>18</defaultFormatIndex>
+	<defaultFormatIndex>19</defaultFormatIndex>
 	<height>22</height>
 	<vgRows>22</vgRows>
 	<merge>
@@ -747,6 +747,13 @@
 				<v8:content>ЧЦ=10;ЧДЦ=3</v8:content>
 			</v8:item>
 		</format>
+	</format>
+	<format>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+		<markNegatives>false</markNegatives>
 	</format>
 	<format>
 		<width>72</width>
