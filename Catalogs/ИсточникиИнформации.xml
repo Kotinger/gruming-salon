@@ -28,7 +28,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Источники информации</v8:content>
+					<v8:content>Источники привлечения клиентов</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -78,7 +78,7 @@
 			<ObjectPresentation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Источник</v8:content>
+					<v8:content>Источники привлечения клиентов</v8:content>
 				</v8:item>
 			</ObjectPresentation>
 			<ExtendedObjectPresentation/>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<SubsystemsVisibility>
+		<Subsystem name="32ad0f4b-ef79-4a18-8f9e-87435c92d08d">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.ПолныеПрава">true</xr:Value>
+				<xr:Value name="Role.ПолныеПраваБезПользователей">true</xr:Value>
+			</Visibility>
+		</Subsystem>
+	</SubsystemsVisibility>
+	<SubsystemsOrder>
+		<Subsystem>012f7d42-5ba5-4248-bb81-9553c26bbed0</Subsystem>
+		<Subsystem>Subsystem.Справочники</Subsystem>
+		<Subsystem>Subsystem.Покупки</Subsystem>
+		<Subsystem>Subsystem.Продажи</Subsystem>
+		<Subsystem>Subsystem.Персонал</Subsystem>
+		<Subsystem>Subsystem.Настройки</Subsystem>
+		<Subsystem>32ad0f4b-ef79-4a18-8f9e-87435c92d08d</Subsystem>
+	</SubsystemsOrder>
+</CommandInterface>

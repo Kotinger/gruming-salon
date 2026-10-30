@@ -380,7 +380,7 @@
 			</c>
 			<c>
 				<c>
-					<f>16</f>
+					<f>17</f>
 					<parameter>Сумма</parameter>
 				</c>
 			</c>
@@ -478,19 +478,19 @@
 			</c>
 			<c>
 				<c>
-					<f>17</f>
+					<f>18</f>
 					<parameter>Количество</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>16</f>
+					<f>17</f>
 					<parameter>Цена</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>16</f>
+					<f>17</f>
 					<parameter>Сумма</parameter>
 				</c>
 			</c>
@@ -521,7 +521,7 @@
 			</c>
 			<c>
 				<c>
-					<f>18</f>
+					<f>19</f>
 					<parameter>СуммаДокумента</parameter>
 				</c>
 			</c>
@@ -545,14 +545,14 @@
 			</c>
 			<c>
 				<c>
-					<f>18</f>
+					<f>19</f>
 					<parameter>Ответственный</parameter>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>19</defaultFormatIndex>
+	<defaultFormatIndex>20</defaultFormatIndex>
 	<height>22</height>
 	<vgRows>22</vgRows>
 	<merge>
@@ -729,6 +729,14 @@
 	</format>
 	<format>
 		<border>0</border>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+		<markNegatives>false</markNegatives>
+	</format>
+	<format>
+		<border>0</border>
+		<horizontalAlignment>Right</horizontalAlignment>
 		<verticalAlignment>Top</verticalAlignment>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>

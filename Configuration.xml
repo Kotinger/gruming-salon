@@ -49,7 +49,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Хайров Александр</Vendor>
-			<Version>1.0.0.2</Version>
+			<Version>2.0.0.2</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -250,8 +250,21 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>Справочники</Subsystem>
+			<Subsystem>Покупки</Subsystem>
+			<Subsystem>Персонал</Subsystem>
+			<Subsystem>Продажи</Subsystem>
+			<Subsystem>Настройки</Subsystem>
+			<SessionParameter>ТекущийПользователь</SessionParameter>
+			<Role>ПолныеПрава</Role>
+			<Role>ПолныеПраваБезПользователей</Role>
 			<FunctionalOption>ИспользоватьСклады</FunctionalOption>
 			<DefinedType>ФинансовыеДанные</DefinedType>
+			<CommandGroup>ГруппаПродажи</CommandGroup>
+			<CommandGroup>ГруппаСправочники</CommandGroup>
+			<CommandGroup>ГруппаНастройки</CommandGroup>
+			<CommandGroup>ГруппаПерсонал</CommandGroup>
+			<CommandGroup>ГруппаПокупки</CommandGroup>
 			<Constant>ИспользоватьСклады</Constant>
 			<Catalog>Организации</Catalog>
 			<Catalog>Склады</Catalog>
@@ -273,6 +286,7 @@
 			<Enum>ВидыПитомцев</Enum>
 			<AccumulationRegister>ТоварыНаСкладах</AccumulationRegister>
 			<AccumulationRegister>Продажи</AccumulationRegister>
+			<AccumulationRegister>ЗаказыКлиентов</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
