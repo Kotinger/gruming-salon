@@ -8,6 +8,21 @@
 				<xr:Value name="Role.ПолныеПраваБезПользователей">false</xr:Value>
 			</Visibility>
 		</Command>
+		<Command name="Document.ЗаписьКлиента.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.РеализацияТоваровИУслуг.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ЦеныНоменклатуры.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
 		<Command name="Catalog.Контрагенты.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
@@ -34,16 +49,6 @@
 			</Visibility>
 		</Command>
 		<Command name="Catalog.Склады.StandardCommand.OpenList">
-			<Visibility>
-				<xr:Common>true</xr:Common>
-			</Visibility>
-		</Command>
-		<Command name="Document.ЗаписьКлиента.StandardCommand.OpenList">
-			<Visibility>
-				<xr:Common>true</xr:Common>
-			</Visibility>
-		</Command>
-		<Command name="Document.РеализацияТоваровИУслуг.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
@@ -65,6 +70,18 @@
 		</Command>
 	</CommandsVisibility>
 	<CommandsPlacement>
+		<Command name="Document.ЗаписьКлиента.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ГруппаПродажи</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Document.РеализацияТоваровИУслуг.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ГруппаПродажи</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.ЦеныНоменклатуры.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ГруппаПродажи</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
 		<Command name="Catalog.Контрагенты.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.ГруппаСправочники</CommandGroup>
 			<Placement>Auto</Placement>
@@ -87,18 +104,19 @@
 		</Command>
 		<Command name="Catalog.Склады.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.ГруппаСправочники</CommandGroup>
-			<Placement>Auto</Placement>
-		</Command>
-		<Command name="Document.ЗаписьКлиента.StandardCommand.OpenList">
-			<CommandGroup>CommandGroup.ГруппаПродажи</CommandGroup>
-			<Placement>Auto</Placement>
-		</Command>
-		<Command name="Document.РеализацияТоваровИУслуг.StandardCommand.OpenList">
-			<CommandGroup>CommandGroup.ГруппаПродажи</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
 	</CommandsPlacement>
 	<CommandsOrder>
+		<Command name="Document.ЗаписьКлиента.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ГруппаПродажи</CommandGroup>
+		</Command>
+		<Command name="Document.РеализацияТоваровИУслуг.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ГруппаПродажи</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ЦеныНоменклатуры.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ГруппаПродажи</CommandGroup>
+		</Command>
 		<Command name="Catalog.Контрагенты.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.ГруппаСправочники</CommandGroup>
 		</Command>
@@ -117,15 +135,9 @@
 		<Command name="Catalog.Склады.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.ГруппаСправочники</CommandGroup>
 		</Command>
-		<Command name="Document.ЗаписьКлиента.StandardCommand.OpenList">
-			<CommandGroup>CommandGroup.ГруппаПродажи</CommandGroup>
-		</Command>
-		<Command name="Document.РеализацияТоваровИУслуг.StandardCommand.OpenList">
-			<CommandGroup>CommandGroup.ГруппаПродажи</CommandGroup>
-		</Command>
 	</CommandsOrder>
 	<GroupsOrder>
-		<Group>CommandGroup.ГруппаСправочники</Group>
 		<Group>CommandGroup.ГруппаПродажи</Group>
+		<Group>CommandGroup.ГруппаСправочники</Group>
 	</GroupsOrder>
 </CommandInterface>

@@ -139,6 +139,9 @@
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="УслугиУслугаКонтекстноеМеню" id="49"/>
 									<ExtendedTooltip name="УслугиУслугаРасширеннаяПодсказка" id="50"/>
+									<Events>
+										<Event name="OnChange">УслугиУслугаПриИзменении</Event>
+									</Events>
 								</InputField>
 								<InputField name="УслугиСумма" id="51">
 									<DataPath>Объект.Услуги.Сумма</DataPath>
@@ -215,6 +218,9 @@
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="ТоварыТоварКонтекстноеМеню" id="73"/>
 									<ExtendedTooltip name="ТоварыТоварРасширеннаяПодсказка" id="74"/>
+									<Events>
+										<Event name="OnChange">ТоварыТоварПриИзменении</Event>
+									</Events>
 								</InputField>
 								<InputField name="ТоварыКоличество" id="75">
 									<DataPath>Объект.Товары.Количество</DataPath>
@@ -222,6 +228,9 @@
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="ТоварыКоличествоКонтекстноеМеню" id="76"/>
 									<ExtendedTooltip name="ТоварыКоличествоРасширеннаяПодсказка" id="77"/>
+									<Events>
+										<Event name="OnChange">ТоварыКоличествоПриИзменении</Event>
+									</Events>
 								</InputField>
 								<InputField name="ТоварыЦена" id="78">
 									<DataPath>Объект.Товары.Цена</DataPath>
@@ -229,9 +238,13 @@
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="ТоварыЦенаКонтекстноеМеню" id="79"/>
 									<ExtendedTooltip name="ТоварыЦенаРасширеннаяПодсказка" id="80"/>
+									<Events>
+										<Event name="OnChange">ТоварыЦенаПриИзменении</Event>
+									</Events>
 								</InputField>
 								<InputField name="ТоварыСумма" id="81">
 									<DataPath>Объект.Товары.Сумма</DataPath>
+									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
 									<FooterDataPath>Объект.Товары.TotalСумма</FooterDataPath>
 									<FooterText>

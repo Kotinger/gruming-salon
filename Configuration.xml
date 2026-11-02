@@ -49,7 +49,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Хайров Александр</Vendor>
-			<Version>2.0.0.2</Version>
+			<Version>3.0.0.1</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -258,6 +258,8 @@
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>ПолныеПрава</Role>
 			<Role>ПолныеПраваБезПользователей</Role>
+			<CommonModule>РаботаСЦенами</CommonModule>
+			<CommonModule>РаботаСТабличнымиЧастямиКлиент</CommonModule>
 			<FunctionalOption>ИспользоватьСклады</FunctionalOption>
 			<DefinedType>ФинансовыеДанные</DefinedType>
 			<CommandGroup>ГруппаПродажи</CommandGroup>
@@ -284,6 +286,9 @@
 			<Enum>ТипыКонтрагентов</Enum>
 			<Enum>ТипыНоменклатуры</Enum>
 			<Enum>ВидыПитомцев</Enum>
+			<Enum>ВидыЦен</Enum>
+			<Report>ТоварыНаСкладах</Report>
+			<InformationRegister>ЦеныНоменклатуры</InformationRegister>
 			<AccumulationRegister>ТоварыНаСкладах</AccumulationRegister>
 			<AccumulationRegister>Продажи</AccumulationRegister>
 			<AccumulationRegister>ЗаказыКлиентов</AccumulationRegister>
