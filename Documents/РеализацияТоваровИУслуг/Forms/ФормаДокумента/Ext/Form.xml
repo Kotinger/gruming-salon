@@ -4,6 +4,9 @@
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаШапка" id="86">
 			<Title>
@@ -126,6 +129,9 @@
 								<ContextMenu name="УслугиУправлениеПоискомКонтекстноеМеню" id="43"/>
 								<ExtendedTooltip name="УслугиУправлениеПоискомРасширеннаяПодсказка" id="44"/>
 							</SearchControlAddition>
+							<Events>
+								<Event name="AfterDeleteRow">УслугиПослеУдаления</Event>
+							</Events>
 							<ChildItems>
 								<LabelField name="УслугиНомерСтроки" id="45">
 									<DataPath>Объект.Услуги.LineNumber</DataPath>
@@ -156,6 +162,9 @@
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="УслугиСуммаКонтекстноеМеню" id="52"/>
 									<ExtendedTooltip name="УслугиСуммаРасширеннаяПодсказка" id="53"/>
+									<Events>
+										<Event name="OnChange">УслугиСуммаПриИзменении</Event>
+									</Events>
 								</InputField>
 							</ChildItems>
 						</Table>
@@ -205,6 +214,9 @@
 								<ContextMenu name="ТоварыУправлениеПоискомКонтекстноеМеню" id="67"/>
 								<ExtendedTooltip name="ТоварыУправлениеПоискомРасширеннаяПодсказка" id="68"/>
 							</SearchControlAddition>
+							<Events>
+								<Event name="AfterDeleteRow">ТоварыПослеУдаления</Event>
+							</Events>
 							<ChildItems>
 								<LabelField name="ТоварыНомерСтроки" id="69">
 									<DataPath>Объект.Товары.LineNumber</DataPath>
