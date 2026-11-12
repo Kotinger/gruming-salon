@@ -49,7 +49,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Хайров Александр</Vendor>
-			<Version>3.0.0.3</Version>
+			<Version>4.0.0.1</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -255,6 +255,7 @@
 			<Subsystem>Персонал</Subsystem>
 			<Subsystem>Продажи</Subsystem>
 			<Subsystem>Настройки</Subsystem>
+			<Subsystem>Деньги</Subsystem>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>ПолныеПрава</Role>
 			<Role>ПолныеПраваБезПользователей</Role>
@@ -278,20 +279,34 @@
 			<Catalog>Пользователи</Catalog>
 			<Catalog>Должности</Catalog>
 			<Catalog>ИсточникиИнформации</Catalog>
+			<Catalog>СтатьиЗатрат</Catalog>
+			<Catalog>Кассы</Catalog>
+			<Catalog>Банки</Catalog>
+			<Catalog>ЭквайринговыеТерминалы</Catalog>
 			<Document>ЗаписьКлиента</Document>
 			<Document>РеализацияТоваровИУслуг</Document>
 			<Document>ПоступлениеТоваровИМатериалов</Document>
+			<Document>ПоступлениеУслуг</Document>
+			<Document>ПоступлениеДенежныхСредств</Document>
+			<Document>РасходДенежныхСредств</Document>
 			<Enum>ПолФизическогоЛица</Enum>
 			<Enum>ТипыОрганизаций</Enum>
 			<Enum>ТипыКонтрагентов</Enum>
 			<Enum>ТипыНоменклатуры</Enum>
 			<Enum>ВидыПитомцев</Enum>
 			<Enum>ВидыЦен</Enum>
+			<Enum>ТипыДенежныхСредств</Enum>
+			<Enum>ВидыОперацийПоступленияДенег</Enum>
+			<Enum>ВидыОперацийРасходаДенег</Enum>
 			<Report>ТоварыНаСкладах</Report>
+			<Report>ФинансовыйРезультат</Report>
 			<InformationRegister>ЦеныНоменклатуры</InformationRegister>
 			<AccumulationRegister>ТоварыНаСкладах</AccumulationRegister>
 			<AccumulationRegister>Продажи</AccumulationRegister>
 			<AccumulationRegister>ЗаказыКлиентов</AccumulationRegister>
+			<AccumulationRegister>УчетЗатрат</AccumulationRegister>
+			<AccumulationRegister>ДенежныеСредства</AccumulationRegister>
+			<AccumulationRegister>БезналичнаяОплата</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

@@ -53,6 +53,11 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
+		<Command name="Catalog.СтатьиЗатрат.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
 		<Command name="Document.ЗаписьКлиента.StandardCommand.Create">
 			<Visibility>
 				<xr:Common>true</xr:Common>
@@ -106,6 +111,10 @@
 			<CommandGroup>CommandGroup.ГруппаСправочники</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
+		<Command name="Catalog.СтатьиЗатрат.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ГруппаСправочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
 	</CommandsPlacement>
 	<CommandsOrder>
 		<Command name="Document.ЗаписьКлиента.StandardCommand.OpenList">
@@ -133,6 +142,9 @@
 			<CommandGroup>CommandGroup.ГруппаСправочники</CommandGroup>
 		</Command>
 		<Command name="Catalog.Склады.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ГруппаСправочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.СтатьиЗатрат.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.ГруппаСправочники</CommandGroup>
 		</Command>
 	</CommandsOrder>

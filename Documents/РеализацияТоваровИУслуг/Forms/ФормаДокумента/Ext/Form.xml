@@ -69,13 +69,13 @@
 			<ContextMenu name="СкладКонтекстноеМеню" id="17"/>
 			<ExtendedTooltip name="СкладРасширеннаяПодсказка" id="18"/>
 		</InputField>
-		<InputField name="Основание" id="7">
+		<LabelField name="Основание" id="7">
 			<DataPath>Объект.Основание</DataPath>
 			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<Hiperlink>true</Hiperlink>
 			<ContextMenu name="ОснованиеКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="ОснованиеРасширеннаяПодсказка" id="9"/>
-		</InputField>
+		</LabelField>
 		<Pages name="Страницы" id="28">
 			<Title>
 				<v8:item>
@@ -336,18 +336,30 @@
 	<CommandInterface>
 		<NavigationPanel>
 			<Item>
-				<Command>AccumulationRegister.Продажи.StandardCommand.OpenByRecorder</Command>
+				<Command>AccumulationRegister.ТоварыНаСкладах.StandardCommand.OpenByRecorder</Command>
 				<Type>Auto</Type>
+				<CommandGroup>FormNavigationPanelGoTo</CommandGroup>
+				<Index>2</Index>
 				<DefaultVisible>false</DefaultVisible>
 			</Item>
 			<Item>
-				<Command>AccumulationRegister.ТоварыНаСкладах.StandardCommand.OpenByRecorder</Command>
+				<Command>AccumulationRegister.УчетЗатрат.StandardCommand.OpenByRecorder</Command>
 				<Type>Auto</Type>
+				<CommandGroup>FormNavigationPanelGoTo</CommandGroup>
+				<Index>3</Index>
 				<DefaultVisible>false</DefaultVisible>
 			</Item>
 			<Item>
 				<Command>AccumulationRegister.ЗаказыКлиентов.StandardCommand.OpenByRecorder</Command>
 				<Type>Auto</Type>
+				<CommandGroup>FormNavigationPanelGoTo</CommandGroup>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+			<Item>
+				<Command>AccumulationRegister.Продажи.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<CommandGroup>FormNavigationPanelGoTo</CommandGroup>
+				<Index>1</Index>
 				<DefaultVisible>false</DefaultVisible>
 			</Item>
 		</NavigationPanel>

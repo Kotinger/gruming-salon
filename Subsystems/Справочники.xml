@@ -29,6 +29,7 @@
 		<ChildObjects>
 			<Subsystem>СпрПерсонал</Subsystem>
 			<Subsystem>СпрПродажи</Subsystem>
+			<Subsystem>СпрПокупки</Subsystem>
 		</ChildObjects>
 	</Subsystem>
 </MetaDataObject>

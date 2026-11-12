@@ -21,7 +21,17 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
+		<Command name="Catalog.СтатьиЗатрат.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
 		<Command name="Document.ПоступлениеТоваровИМатериалов.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.ПоступлениеУслуг.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
@@ -44,7 +54,15 @@
 			<CommandGroup>CommandGroup.ГруппаСправочники</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
+		<Command name="Catalog.СтатьиЗатрат.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ГруппаСправочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
 		<Command name="Document.ПоступлениеТоваровИМатериалов.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ГруппаПокупки</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Document.ПоступлениеУслуг.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.ГруппаПокупки</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
@@ -62,7 +80,13 @@
 		<Command name="Catalog.Склады.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.ГруппаСправочники</CommandGroup>
 		</Command>
+		<Command name="Catalog.СтатьиЗатрат.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ГруппаСправочники</CommandGroup>
+		</Command>
 		<Command name="Document.ПоступлениеТоваровИМатериалов.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ГруппаПокупки</CommandGroup>
+		</Command>
+		<Command name="Document.ПоступлениеУслуг.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.ГруппаПокупки</CommandGroup>
 		</Command>
 	</CommandsOrder>
